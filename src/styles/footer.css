@@ -1,0 +1,33 @@
+.footer{
+    margin-top: 1rem;
+    padding: 1.5rem;
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(10, 25, 47) ;
+  }
+.socials{
+    color: aquamarine;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.socials li{
+    list-style-type: none;
+}
+.socials li a{
+    margin-right: 1rem;
+}
+@media screen and (max-width: 550px) {
+    .footer{
+        height: 50px;
+        padding: 0.5rem;
+        background-color: rgb(10, 25, 47) ;
+    }
+    .socials{
+        font-size: 20px;   
+    }
+}
